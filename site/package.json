@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "site",
+  "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://antvis.github.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antvis/antvis.github.io"
+  },
+  "bugs": {
+    "url": "https://github.com/antvis/antvis.github.io/issues"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^2.15.34",
+    "gatsby-theme-antv": "*",
+    "ptz-i18n": "^1.0.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0"
+  }
+}
